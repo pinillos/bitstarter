@@ -3,7 +3,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-app.get('/', function(request, response) {
+app.get('/', function( request, response) {
   var arr = new Array();
   var buf = new Buffer(arr);
   var fs = require('fs');
